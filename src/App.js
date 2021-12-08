@@ -1,8 +1,9 @@
+import { Home } from '@mui/icons-material';
 import React from 'react';
-import Products from './Components/Products'
+
 
 function App() {
-	return <Products/>;
+	return <Home/>
 }
 
 export default App;
