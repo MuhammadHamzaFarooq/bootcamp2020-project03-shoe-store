@@ -1,8 +1,10 @@
 import React from 'react';
-import Home from './Pages/Home'
+import RouteConfig from './Routes/RouteConfig';
+
+
 
 function App() {
-	return <Home/>
+	return <RouteConfig/>;
 }
 
 export default App;

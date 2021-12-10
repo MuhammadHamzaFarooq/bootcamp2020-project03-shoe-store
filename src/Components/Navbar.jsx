@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
+	
 	return (
 		<Nav>
 			<Logo href="">
@@ -28,10 +30,13 @@ const Navbar = () => {
 				<span />
 			</Hamburger>
 			<Menu isOpen={isOpen}>
-				<MenuLink>Home</MenuLink>
-
+				<Link to="/" className="home" style={{ textDecoration: 'none' }}>
+					<MenuLink>Home</MenuLink>
+				</Link>
+				<Link to="/products" className="products" style={{ textDecoration: 'none' }}>
 				<MenuLink>Products</MenuLink>
-
+				</Link>
+				
 				<MenuLink>
 					<Badge badgeContent={4} color="primary">
 						<ShoppingCartIcon />
