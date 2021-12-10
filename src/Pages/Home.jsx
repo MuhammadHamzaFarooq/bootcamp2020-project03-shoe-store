@@ -1,6 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import Navbar from '../Components/Navbar';
 import Products from '../Components/Products';
+import Footer from './Footer';
 
 
 const Container = styled.div`
@@ -170,6 +171,7 @@ const Home = () => {
 				</Wrapper>
 			</Container>
 		   <Products/>
+		   <Footer/>
 		</>
 
 	);

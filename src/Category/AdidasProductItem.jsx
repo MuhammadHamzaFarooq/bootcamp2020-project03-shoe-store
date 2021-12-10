@@ -134,6 +134,7 @@ const AdidasProductItem = () => {
           </Box>
         </div>
       </Paper>
+      
     </div>
   );
 };
