@@ -2,6 +2,7 @@ import styled, { keyframes } from 'styled-components';
 import Navbar from '../Components/Navbar';
 import Products from '../Components/Products';
 import Footer from './Footer';
+import img from './bg.png'
 
 
 const Container = styled.div`
@@ -166,7 +167,9 @@ const Home = () => {
 						<Button>SHOP NOW</Button>
 					</InfoContainer>
 					<ImageContainer>
-						<Image src="http://clipart-library.com/images_k/shoe-transparent-background/shoe-transparent-background-12.png" alt='Shoe Image' />
+						{/* <Image src="http://clipart-library.com/images_k/shoe-transparent-background/shoe-transparent-background-12.png" alt='Shoe Image' /> */}
+						<Image src={img} alt='Shoe Image' />
+						
 					</ImageContainer>
 				</Wrapper>
 			</Container>
