@@ -168,7 +168,7 @@ const Home = () => {
 					</InfoContainer>
 					<ImageContainer>
 						{/* <Image src="http://clipart-library.com/images_k/shoe-transparent-background/shoe-transparent-background-12.png" alt='Shoe Image' /> */}
-						<Image src={img} alt='Shoe Image' />
+						<Image src={img} alt='shoe imgae' />
 						
 					</ImageContainer>
 				</Wrapper>
